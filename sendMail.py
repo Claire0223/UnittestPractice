@@ -6,13 +6,13 @@ from email.header import Header
 
 #第三方SMTP服务,设置自己的帐号密码
 mail_host='smtp.163.com' #设置服务器，选择邮箱类型
-mail_user='leimf1128@163.com' #设置用户
-mail_pw='BUHWNKEYRZXUWTZI'#授权码
+mail_user='@163.com' #设置用户
+mail_pw=''#授权码
 port=465
 
 #设置接收方的邮箱
-sender='leimf1128@163.com'
-receivers=['1327686271@qq.com']
+sender='@163.com'
+receivers=['@qq.com']
 subject='海子的诗'
 
 meg_text='''从明天起，做一个幸福的人
