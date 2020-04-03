@@ -7,10 +7,10 @@ from email.mime.image import MIMEImage
 
 #发送设置
 user_host='smtp.163.com'
-user='leimf1128@163.com'#信件
-passwd='BUHWNKEYRZXUWTZI'
-sender='leimf1128@163.com'#信封
-receivers=['1327686271@qq.com']
+user='@163.com'#信件
+passwd=''
+sender='@163.com'#信封
+receivers=['@qq.com']
 subject='邮件添加附件发送'
 
 '''常见的multipart类型有三种：multipart/alternative, multipart/related和multipart/mixed。
